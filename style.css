@@ -1,3 +1,34 @@
-*{
-    background-color: blue;
+
+
+
+.sign-up{
+    border: none;
+    width: 200px;
+    background-color: none;
+}
+
+.Health{
+    color: #007E85;
+text-align: center;
+font-family: Lexend Tera;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -2.34px;
+text-transform: capitalize;
+}
+.Care{
+color: #6EAB36;
+font-family: Lexend Tera;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -2.34px;
+text-transform: capitalize;
+}
+
+.home{
+    color: #6EAB36;
 }
