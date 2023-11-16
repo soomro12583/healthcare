@@ -1,4 +1,9 @@
-
+*{
+    background-color: #F2F1FA;
+}
+/*.navbar{
+    display: flex;
+}*/
 
 
 .sign-up{
@@ -17,6 +22,7 @@ font-weight: 600;
 line-height: normal;
 letter-spacing: -2.34px;
 text-transform: capitalize;
+text-decoration: none;
 }
 .Care{
 color: #6EAB36;
@@ -27,8 +33,76 @@ font-weight: 600;
 line-height: normal;
 letter-spacing: -2.34px;
 text-transform: capitalize;
+text-decoration: none;
+}
+.list{
+    align-items: center;
 }
 
-.home{
-    color: #6EAB36;
+
+.Home{
+    color: #007E85;
+text-align: center;
+font-family: Lexend Tera;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -2.8px;
+text-transform: capitalize;
+text-decoration: none;
+}
+.nav-item{
+    color: #000;
+text-align: center;
+font-family: Lexend Tera;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+/*letter-spacing: -2.8px;*/
+text-transform: capitalize;
+margin: 10px;
+}
+
+.Service, .contact-us, .Help, .Blogs{
+    text-decoration: none;
+    color: #000;
+}
+
+.sign-up{
+    color: #007E85;
+text-align: center;
+font-family: Lexend Tera;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+width: 100px;
+}
+
+.log-in{
+    display: inline-flex;
+padding: 13px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #007E85;
+height: 51px;
+color: #FFF;
+text-align: center;
+font-family: Lexend Tera;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+/*letter-spacing: -2.8px;*/
+text-transform: capitalize;
+}
+
+@media screen and (min-width: 300px) and (max-width: 992px){
+    .navbar-expand-lg{
+        gap: 0px;
+    }
 }
